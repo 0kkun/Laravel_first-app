@@ -1,3 +1,4 @@
+/* -------------- reset css ----------------- */
 body,
 div,
 dl,
@@ -26,21 +27,105 @@ td {
   margin:0;
   padding:0;
 }
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,
+img {
+  border:0;
+}
+/*
+  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style:normal;
+  font-weight:normal;
+}
+
+ol,
+ul {
+  list-style:none;
+}
+
+caption,
+th {
+  text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,
+q:after {
+  content:'';
+}
+abbr,
+acronym {
+  border:0;
+  font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+  vertical-align:text-top;
+}
+sub {
+  vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+  *font-size:100%;
+}
+/*because legend doesn't inherit in IE */
+legend {
+  color:#000;
+}
+/* YUI CSS Detection Stamp */
+#yui3-css-stamp.cssreset { display: none; }
+
+
+
 .wrapper {
   background-color: #f3f6fa;
   width: 100%;
 }
 
+/* -------------- header ----------------- */
+
 .header {
   height: 480px;
   width: 100vw;
 }
+
 .background-image {
   width: 100%;
   height: 100%;
   background-image: url('/images/free-resources-mac-1.jpg');
   background-size: cover;
 }
+
 .title {
   font-size: 94px;
   color: #fff;
@@ -51,6 +136,7 @@ td {
   text-align: center;
   padding-top: 160px;
 }
+
 .job {
   display: block;
   font-size: 36px;
@@ -67,15 +153,23 @@ td {
   height: 65px;
   padding: 10px;
 }
+
 .navi-list {
   display: flex;
   justify-content: center;
 }
+
 ul, li {
   list-style: none;
 }
+
+li.fas {
+  font-size: 30px;
+  color: #333;
+}
+
 a.navi-link {
-  color: #444;
+  color: #333;
   font-weight: bold;
   font-size: 25px;
   padding-right: 25px;
@@ -83,6 +177,59 @@ a.navi-link {
   list-style: none;
   text-decoration: none;
 }
+
+/* -------------- profile ----------------- */
+
+.section {
+  text-align: center;
+  color: #444;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  padding-top: 70px;
+  font-size: 70px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.profile-contents {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-image{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-image: url('/images/profile-image.jpg');
+  background-size: cover;
+  Border-radius:50%;
+  margin-top: 40px;
+}
+.text{
+  width: 500px;
+  margin: 20px;
+}
+
+/* -------------- contact ----------------- */
+
+.contact {
+  height: 400px;
+}
+
+.section-desc {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.fa-twitter{
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(58, 158, 185);
+  margin: 20px;
+}
+
+/* -------------- footer ----------------- */
 
 .footer {
   width: 100%;
@@ -94,32 +241,19 @@ a.navi-link {
   justify-content: center;
 }
 .footer__navi-link{
-  font-size: 12px;
   padding: 0 20px;
   padding-top: 30px;
+  text-decoration: none;
+}
+.footer__link {
+  font-size: 12px;
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
 }
 .copy-rihgt {
+  font-size: 12px;
   padding-top: 20px;
   text-align: center;
   color: #8c8c8c;
-}
-
-
-.section {
-  text-align: center;
-  color: #444;
-}
-.profile {
-  height: 375px;
-}
-.contact {
-  height: 375px;
-}
-.section-title {
-  padding-top: 70px;
-  font-size: 70px;
-  font-weight: bold;
-  padding-left: 20px;
 }
