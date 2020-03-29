@@ -107,7 +107,7 @@ legend {
 
 
 
-.wrapper {
+body {
   background-color: #f3f6fa;
   width: 100%;
 }
@@ -166,16 +166,16 @@ ul, li {
 li.fas {
   font-size: 30px;
   color: #333;
+  cursor: pointer;
 }
 
-a.navi-link {
+.navi-link {
   color: #333;
   font-weight: bold;
   font-size: 25px;
   padding-right: 25px;
   padding-left: 10px;
   list-style: none;
-  text-decoration: none;
 }
 
 /* -------------- profile ----------------- */
@@ -211,6 +211,67 @@ a.navi-link {
   width: 500px;
   margin: 20px;
 }
+/* -------------- works ----------------- */
+
+.works-images {
+  padding-top: 30px;
+}
+
+.app-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.app-desc{
+  font-size: 16px;
+  text-align: left;
+  padding-left: 150px;
+
+}
+.app-desc-end {
+  margin-bottom:35px;
+}
+
+.image-adjust {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.works-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.works-image1{
+  background-image: url('/images/works-image2.jpg');
+  background-size: cover;
+
+}
+.works-image2{
+  background-image: url('/images/works-frema.jpg');
+  background-size: cover;
+
+
+}
+.works-image3{
+  background-image: url('/images/works3-chatspace.png');
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------- contact ----------------- */
 
@@ -253,7 +314,22 @@ a.navi-link {
 }
 .copy-rihgt {
   font-size: 12px;
-  padding-top: 20px;
+  padding-top: 60px;
   text-align: center;
   color: #8c8c8c;
+}
+
+/* -------------- for swiper ----------------- */
+
+.swiper-container{
+  text-align: center;
+}
+.swiper-container .swiper-slide img{
+  max-width: 600px;
+  height: 400px;
+}
+.prettyprint{
+  border: none;
+  background: #fafafa;
+  color: #697d86;
 }
