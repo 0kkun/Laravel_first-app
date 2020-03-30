@@ -52,12 +52,12 @@
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-              <a href="#"><img src="images/works-tennis-app1.jpg" alt=""></a>
+              <a href="https://my-tennis-app.herokuapp.com/"><img src="images/works-tennis-app1.jpg" alt=""></a>
               <div>
               <h1 class="app-title">テニスアプリ</h1>
-              <p >test account ID: ****, PASS : ********, </p1>
+              <p >test account ID: test@gmail.com, PASS : 11111111, </p1>
               <a href="https://github.com/0kkun/tennis-application">github</a>
-              <p class="app-desc">使用技術：Ruby on Rails / MySQL / Ruby / google API / Scraping</p>
+              <p class="app-desc">使用技術：Ruby on Rails / MySQL / Ruby / google API / Scraping / Heroku</p>
               <p class="app-desc app-desc-end">目的：ユーザーが登録した好みに合わせてテニスの最新情報を集約できるアプリです。</p>
               </div>
             </div>
@@ -81,6 +81,17 @@
               <a href="https://github.com/0kkun/chat-space">github</a>
               <p class="app-desc">使用技術：Ruby on Rails / MySQL / Ruby / AWS / jQuery </p>
               <p class="app-desc app-desc-end">目的：グループを作成し、チャットができるアプリです。</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#"><img src="images/works-portfolio.jpg" alt=""></a>
+              <div>
+              <h1 class="app-title">ポートフォリオサイト</h1>
+              <p >test account ID: ******, PASS : ****, </p1>
+              <a href="https://github.com/0kkun/Laravel_first-app">github</a>
+              <p class="app-desc">使用技術：Docker / Laravel / PHP / JS / Heroku</p>
+              <p class="app-desc app-desc-end">目的：このサイトです。</p>
               </div>
             </div>
 
