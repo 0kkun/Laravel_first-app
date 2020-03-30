@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Shinji's portfolio</title>
+  <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
