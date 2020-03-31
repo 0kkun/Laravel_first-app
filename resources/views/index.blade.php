@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <title>Shinji's portfolio</title>
   <!-- 開発用 -->
-  <!-- <link rel="stylesheet" href="{{ asset('css/reset.css' )  }}">
+  <link rel="stylesheet" href="{{ asset('css/reset.css' )  }}">
   <link rel="stylesheet" href="{{ asset('css/small.css' )  }}" media="screen and (max-width:480px)">
   <link rel="stylesheet" href="{{ asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
   <link rel="stylesheet" href="{{ asset('css/wide.css' )   }}" media="screen and (min-width:1024px)">
-  <link rel="icon" href="{{ asset('images/favicon.ico' )   }}"> -->
+  <link rel="icon" href="{{ asset('images/favicon.ico' )   }}">
   <!-- 本番用 -->
-  <link rel="stylesheet" href="{{ secure_asset('css/reset.css' )  }}">
+  <!-- <link rel="stylesheet" href="{{ secure_asset('css/reset.css' )  }}">
   <link rel="stylesheet" href="{{ secure_asset('css/small.css' )  }}" media="screen and (max-width:480px)">
   <link rel="stylesheet" href="{{ secure_asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
   <link rel="stylesheet" href="{{ secure_asset('css/wide.css' )   }}" media="screen and (min-width:1024px)">
-  <link rel="icon" href="{{ secure_asset('images/favicon.ico' )   }}">
+  <link rel="icon" href="{{ secure_asset('images/favicon.ico' )   }}"> -->
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
@@ -85,7 +85,7 @@
             </div>
 
             <div class="swiper-slide">
-              <a href="http://3.113.152.196/"><img src="images/works-chatspace.png" alt=""></a>
+              <a href="http://3.114.127.24/"><img src="images/works-chatspace.png" alt=""></a>
               <div>
               <h1 class="app-title">チャットアプリ</h1>
               <p >test account ID: ******, PASS : ****, </p1>
@@ -137,7 +137,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-  <script src="{{ secure_asset('js/slider-script.js') }}"></script>
-  <!-- <script src="{{ asset('js/slider-script.js') }}"></script> -->
+  <!-- <script src="{{ secure_asset('js/slider-script.js') }}"></script> -->
+  <script src="{{ asset('js/slider-script.js') }}"></script>
 </body>
 </html>
