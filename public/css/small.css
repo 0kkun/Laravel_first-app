@@ -8,7 +8,7 @@ body {
 /* -------------- header ----------------- */
 
 .header {
-  height: 480px;
+  height: 350px;
   width: 100%;
 }
 
@@ -27,7 +27,7 @@ body {
   letter-spacing: -3px;
   font-weight: bold;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 120px;
 }
 
 .job {
@@ -102,6 +102,7 @@ li.fas {
 .text{
   width: 100%;
   margin-top: 20px;
+  font-family: sans-serif;
 }
 /* -------------- works ----------------- */
 

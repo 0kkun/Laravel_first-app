@@ -7,13 +7,14 @@
   <!-- <link rel="stylesheet" href="{{ asset('css/reset.css' )  }}">
   <link rel="stylesheet" href="{{ asset('css/small.css' )  }}" media="screen and (max-width:480px)">
   <link rel="stylesheet" href="{{ asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
-  <link rel="stylesheet" href="{{ asset('css/wide.css' )   }}" media="screen and (min-width:1024px)"> -->
-
+  <link rel="stylesheet" href="{{ asset('css/wide.css' )   }}" media="screen and (min-width:1024px)">
+  <link rel="icon" href="{{ asset('images/favicon.ico' )   }}"> -->
   <!-- 本番用 -->
   <link rel="stylesheet" href="{{ secure_asset('css/reset.css' )  }}">
   <link rel="stylesheet" href="{{ secure_asset('css/small.css' )  }}" media="screen and (max-width:480px)">
   <link rel="stylesheet" href="{{ secure_asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
   <link rel="stylesheet" href="{{ secure_asset('css/wide.css' )   }}" media="screen and (min-width:1024px)">
+  <link rel="icon" href="{{ secure_asset('images/favicon.ico' )   }}">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
