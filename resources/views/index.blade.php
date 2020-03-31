@@ -77,7 +77,7 @@
               <a href="http://3.113.152.196/"><img src="images/works-frema.jpg" alt=""></a>
               <div>
               <h1 class="app-title">フリマアプリ</h1>
-              <p >test account ID: team67a, PASS : 6767, </p1>
+              <p >Basic認証 ID: team67a, PASS : 6767, </p1>
               <a href="https://github.com/0kkun/freemarket_sample_67a">github</a>
               <p class="app-desc">使用技術：Ruby on Rails / MySQL / Ruby / AWS / jQuery / Gem (Ancestory) </p>
               <p class="app-desc app-desc-end">目的：某フリマサイトを模倣したアプリです。</p>
@@ -88,7 +88,7 @@
               <a href="http://3.114.127.24/"><img src="images/works-chatspace.png" alt=""></a>
               <div>
               <h1 class="app-title">チャットアプリ</h1>
-              <p >test account ID: ******, PASS : ****, </p1>
+              <p >test account ID: test@gmail.com, PASS : 11111111, </p1>
               <a href="https://github.com/0kkun/chat-space">github</a>
               <p class="app-desc">使用技術：Ruby on Rails / MySQL / Ruby / AWS / jQuery </p>
               <p class="app-desc app-desc-end">目的：グループを作成し、チャットができるアプリです。</p>
@@ -101,7 +101,7 @@
               <h1 class="app-title">ポートフォリオサイト</h1>
               <a href="https://github.com/0kkun/Laravel_first-app">github</a>
               <p class="app-desc">使用技術：Docker / Laravel / PHP / JS / apache / Heroku</p>
-              <p class="app-desc app-desc-end">目的：このサイトです。</p>
+              <p class="app-desc app-desc-end">このサイトです。Docker, Laravel, phpを使って見たくて作りました。</p>
               </div>
             </div>
 
