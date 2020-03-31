@@ -136,7 +136,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-  <!-- <script src="{{ secure_asset('js/slider-script.js') }}"></script> -->
-  <script src="{{ asset('js/slider-script.js') }}"></script>
+  <script src="{{ secure_asset('js/slider-script.js') }}"></script>
+  <!-- <script src="{{ asset('js/slider-script.js') }}"></script> -->
 </body>
 </html>
