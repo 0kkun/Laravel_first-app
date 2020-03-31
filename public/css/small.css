@@ -1,6 +1,5 @@
 
 
-
 body {
   background-color: #f3f6fa;
   width: 100vw;
@@ -21,11 +20,11 @@ body {
 }
 
 .title {
-  font-size: 94px;
+  font-size: 55px;
   color: #fff;
   font-family:'Oswald', sans-serif;
   line-height: 1;
-  letter-spacing: -8px;
+  letter-spacing: -3px;
   font-weight: bold;
   text-align: center;
   padding-top: 160px;
@@ -33,7 +32,7 @@ body {
 
 .job {
   display: block;
-  font-size: 36px;
+  font-size: 18px;
   text-align: center;
   margin-top: 30px;
   color: #fff;
@@ -58,7 +57,7 @@ ul, li {
 }
 
 li.fas {
-  font-size: 30px;
+  font-size: 15px;
   color: #333;
   cursor: pointer;
 }
@@ -77,33 +76,32 @@ li.fas {
 .section {
   text-align: center;
   color: #444;
-  width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .section-title {
   padding-top: 70px;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: bold;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .profile-contents {
-  display: flex;
-  justify-content: space-around;
+
 }
 .profile-image{
   width: 200px;
   height: 200px;
-  margin: 20px;
   background-image: url('/images/profile-image.jpg');
   background-size: cover;
   Border-radius:50%;
-  margin-top: 40px;
+  margin: 0 auto;
 }
 .text{
-  width: 500px;
-  margin: 20px;
+  width: 100%;
+  margin-top: 20px;
 }
 /* -------------- works ----------------- */
 
@@ -112,24 +110,22 @@ li.fas {
 }
 
 .app-title{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 .app-desc{
-  font-size: 16px;
+  font-size: 10px;
   text-align: left;
-  padding-left: 150px;
+  padding-left: 20px;
 
 }
 .app-desc-end {
   margin-bottom:35px;
 }
 
-.image-adjust {
-  height: 300px;
-  width: 500px;
-  margin: 0 auto;
-}
+
+
+
 
 .works-title {
   font-size: 30px;
@@ -209,8 +205,8 @@ li.fas {
   text-align: center;
 }
 .swiper-container .swiper-slide img{
-  max-width: 600px;
-  height: 400px;
+  max-width: 280px;
+  height: 180px;
 }
 .prettyprint{
   border: none;
@@ -219,30 +215,3 @@ li.fas {
 }
 
 
-/* wide */
-@media screen and (min-width:1024px) {
-  .responsive-test {
-    background-color: cadetblue;
-    height: 100px;
-    width: 400px;
-  }
-}
-
-
-/* medium */
-@media screen and (min-width:768px) and ( max-width:1024px)  {
-  .responsive-test {
-    background-color: rgb(133, 160, 95);
-    height: 100px;
-    width: 400px;
-  }
-}
-
-/* small */
-@media screen and (min-width:480px) { 
-  .responsive-test {
-    background-color: rgb(101, 53, 172);
-    height: 100px;
-    width: 400px;
-  }
-}

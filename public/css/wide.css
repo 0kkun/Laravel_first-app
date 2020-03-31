@@ -1,6 +1,5 @@
 
 
-
 body {
   background-color: #f3f6fa;
   width: 100vw;
@@ -125,11 +124,7 @@ li.fas {
   margin-bottom:35px;
 }
 
-.image-adjust {
-  height: 300px;
-  width: 500px;
-  margin: 0 auto;
-}
+
 
 .works-title {
   font-size: 30px;
@@ -218,31 +213,3 @@ li.fas {
   color: #697d86;
 }
 
-
-/* wide */
-@media screen and (min-width:1024px) {
-  .responsive-test {
-    background-color: cadetblue;
-    height: 100px;
-    width: 400px;
-  }
-}
-
-
-/* medium */
-@media screen and (min-width:768px) and ( max-width:1024px)  {
-  .responsive-test {
-    background-color: rgb(133, 160, 95);
-    height: 100px;
-    width: 400px;
-  }
-}
-
-/* small */
-@media screen and (min-width:480px) { 
-  .responsive-test {
-    background-color: rgb(101, 53, 172);
-    height: 100px;
-    width: 400px;
-  }
-}

@@ -3,10 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Shinji's portfolio</title>
-  <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
-  <!-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> -->
+  <!-- 開発用 -->
+  <!-- <link rel="stylesheet" href="{{ asset('css/reset.css' )  }}">
+  <link rel="stylesheet" href="{{ asset('css/small.css' )  }}" media="screen and (max-width:480px)">
+  <link rel="stylesheet" href="{{ asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
+  <link rel="stylesheet" href="{{ asset('css/wide.css' )   }}" media="screen and (min-width:1024px)"> -->
+
+  <!-- 本番用 -->
+  <link rel="stylesheet" href="{{ secure_asset('css/reset.css' )  }}">
+  <link rel="stylesheet" href="{{ secure_asset('css/small.css' )  }}" media="screen and (max-width:480px)">
+  <link rel="stylesheet" href="{{ secure_asset('css/medium.css' ) }}" media="screen and (min-width:480px) and (max-width:1024px)">
+  <link rel="stylesheet" href="{{ secure_asset('css/wide.css' )   }}" media="screen and (min-width:1024px)">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
 </head>
 
@@ -19,15 +29,14 @@
     </div>
   </div>
 
-  <body class="container">
 
-    <div class="navis">
-      <ul class="navi-list">
-        <li class="fas fa-user-alt navi-link" onclick="scrollToProfile()">PROFILE</li>
-        <li class="fas fa-tasks    navi-link" onclick="scrollToWorks()">WORKS</li>
-        <li class="fas fa-envelope navi-link" onclick="scrollToContact()">CONTACT</li>
-      </ul>
-    </div>
+  <div class="navis">
+    <ul class="navi-list">
+      <li class="fas fa-user-alt navi-link" onclick="scrollToProfile()">PROFILE</li>
+      <li class="fas fa-tasks    navi-link" onclick="scrollToWorks()">WORKS</li>
+      <li class="fas fa-envelope navi-link" onclick="scrollToContact()">CONTACT</li>
+    </ul>
+  </div>
 
 
   <div class="section profile" id="target1">
@@ -89,9 +98,8 @@
               <a href="#"><img src="images/works-portfolio.jpg" alt=""></a>
               <div>
               <h1 class="app-title">ポートフォリオサイト</h1>
-              <p >test account ID: ******, PASS : ****, </p1>
               <a href="https://github.com/0kkun/Laravel_first-app">github</a>
-              <p class="app-desc">使用技術：Docker / Laravel / PHP / JS / Heroku</p>
+              <p class="app-desc">使用技術：Docker / Laravel / PHP / JS / apache / Heroku</p>
               <p class="app-desc app-desc-end">目的：このサイトです。</p>
               </div>
             </div>
@@ -128,7 +136,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-  <script src="{{ secure_asset('js/slider-script.js') }}"></script>
-  <!-- <script src="{{ asset('js/slider-script.js') }}"></script> -->
+  <!-- <script src="{{ secure_asset('js/slider-script.js') }}"></script> -->
+  <script src="{{ asset('js/slider-script.js') }}"></script>
 </body>
 </html>
