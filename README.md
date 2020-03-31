@@ -8,35 +8,35 @@
 </p>
 
 
-### About this application
-# 名称
+# About this application
+### 名称
 - Shinji's portfolio
 
-# 概要
+### 概要
 - 自身が作成したwebアプリケーション紹介サイト
 
-# 本番環境
+### 本番環境
 - デプロイ先：Heroku
 
-# 制作背景(意図)
+### 制作背景(意図)
 - 理由１：自信の作成したアプリケーションをまとめて紹介するため
 - 理由２：自信のスキル習得(docker, laravel, php)を図るため
 
-# 工夫したポイント
+### 工夫したポイント
 - dockerを用いることでローカル環境汚染を防ぎ、今後様々な開発環境を作ることができるようにした。
 - レスポンシブデザインを採用
 - javascriptで制作物をスライダー表示することで、見易くした
 
-# 使用技術 (詳細はdockerfileに記載)
+### 使用技術 (詳細はdockerfileに記載)
 - Docker
 - Laravel
 - NginX
 - php
 - javascript
 
-# 課題や今後実装したい機能
+### 課題や今後実装したい機能
 - ブログ機能
 - php練習ページ
 
-# DB設計
+### DB設計
 - *今後実装予定
